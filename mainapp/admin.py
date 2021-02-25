@@ -33,9 +33,6 @@ class NetworkAdmin(admin.ModelAdmin):
 
 
 class ProductAdmin(admin.ModelAdmin):
-    #fields = ('name', 'category')
-    #inlines = [ProductInline]
-
     list_display = ('name', 'category', 'price')
 
 
